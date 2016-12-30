@@ -5,16 +5,31 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FakeVive", "FakeVive\FakeVive.vcxproj", "{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FakeViveLauncher", "FakeViveLauncher\FakeViveLauncher.vcxproj", "{9AA383D7-29BF-456A-99F9-79BDD3742DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Release|x64 = Release|x64
+		DebugDDraw|x64 = DebugDDraw|x64
+		DebugLauncher|x64 = DebugLauncher|x64
+		ReleaseDDraw|x64 = ReleaseDDraw|x64
+		ReleaseLauncher|x64 = ReleaseLauncher|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.Debug|x64.ActiveCfg = Debug|x64
-		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.Debug|x64.Build.0 = Debug|x64
-		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.Release|x64.ActiveCfg = Release|x64
-		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.Release|x64.Build.0 = Release|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.DebugDDraw|x64.ActiveCfg = DebugDDraw|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.DebugDDraw|x64.Build.0 = DebugDDraw|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.DebugLauncher|x64.ActiveCfg = DebugLauncher|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.DebugLauncher|x64.Build.0 = DebugLauncher|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.ReleaseDDraw|x64.ActiveCfg = ReleaseDDraw|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.ReleaseDDraw|x64.Build.0 = ReleaseDDraw|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.ReleaseLauncher|x64.ActiveCfg = ReleaseLauncher|x64
+		{1F2EF400-E4AC-4419-8095-FAC0AE0338E3}.ReleaseLauncher|x64.Build.0 = ReleaseLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.DebugDDraw|x64.ActiveCfg = DebugLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.DebugLauncher|x64.ActiveCfg = DebugLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.DebugLauncher|x64.Build.0 = DebugLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.ReleaseDDraw|x64.ActiveCfg = ReleaseLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.ReleaseDDraw|x64.Build.0 = ReleaseLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.ReleaseLauncher|x64.ActiveCfg = ReleaseLauncher|x64
+		{9AA383D7-29BF-456A-99F9-79BDD3742DDC}.ReleaseLauncher|x64.Build.0 = ReleaseLauncher|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
